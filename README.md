@@ -5,3 +5,5 @@ Ensemble convolution neural network to classify images:
 Firstly, several filters were applied and the image was converted to binary. Once the largest binary digit was identified, it was extracted from the original (i.e. unprocessed) image and scaled to size (i.e. 64x64 pixels.) This was then fed into the network as the training data. 
 
 * A stack of 3 convolution neural network is ensembled together to improve classification accuracy
+
+* The Data.zip folder contains the processed images and training labels
